@@ -6,7 +6,7 @@ export default defineConfig({
 
   plugins: [
     react({
-      assetsInclude: ['**/*.jpg'],
+      assetsInclude: ['**/*.png'],
       babel: {
         plugins: [['babel-plugin-react-compiler']],
       },
