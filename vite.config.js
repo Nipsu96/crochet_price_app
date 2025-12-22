@@ -9,5 +9,13 @@ export default defineConfig({
         plugins: [['babel-plugin-react-compiler']],
       },
     }),
+
   ],
+  module: {
+    rules: [{
+      loader: 'babel-loader',
+      test: /\.js$|jsx/,
+      exclude: /node_modules/
+    }]
+  },
 })
