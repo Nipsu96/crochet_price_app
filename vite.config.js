@@ -11,6 +11,6 @@ export default defineConfig({
     }),
 
   ],
-  assetsInclude: ['**/*.png'],
+  assetsInclude: ['**/*.jpg'],
 })
 
