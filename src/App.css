@@ -9,7 +9,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: url("./assets/pexels-kumoknits-4601228.jpg") no-repeat fixed
+  background: url("./assets/pexels-kumoknits-4601228.png") no-repeat fixed
     center;
   background-size: cover;
   opacity: 0.6;
