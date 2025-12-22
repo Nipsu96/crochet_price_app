@@ -1,7 +1,7 @@
 {
   "name": "crochet-price-app",
   "compatibility_date": "2025-12-22",
-  "main": "src/main.jsx",
+  "main": "src/main.js",
   "$schema": "./node_modules/wrangler/config-schema.json",
   "compatibility_flags": ["nodejs_compat"],
   "assets": {
