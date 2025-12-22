@@ -4,6 +4,7 @@
   "main": "src/main.jsx",
   "rules": [{ "type": "Data", "globs": ["**/*.png"], "fallthrough": true }],
   "$schema": "./node_modules/wrangler/config-schema.json",
+  "compatibility_flags": ["nodejs_compat"],
   "assets": {
     "directory": "./dist",
     "not_found_handling": "single-page-application"
