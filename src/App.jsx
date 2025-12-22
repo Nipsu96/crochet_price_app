@@ -1,11 +1,13 @@
 
 import './App.css'
 import Price_form from './components/Price_form'
+import bg from "./assets/background.png";
 
 function App() {
 
   return (
     <>
+      <img className="img" src={bg} alt="picture of colorful yarn"></img>
       <div className="container">
         <div className="form">
           <Price_form />

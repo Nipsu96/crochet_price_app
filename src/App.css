@@ -9,9 +9,6 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: url("./assets/pexels-kumoknits-4601228.png") no-repeat fixed
-    center;
-  background-size: cover;
   opacity: 0.6;
   z-index: -1;
 }
@@ -19,6 +16,14 @@ body::before {
 .container {
   text-align: center;
   width: 100vw;
+}
+img {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+   opacity: 0.6;
+  z-index: -1;
 }
 
 .form {
