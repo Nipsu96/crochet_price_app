@@ -1,0 +1,3 @@
+rules = [
+  { type = "Data", globs = ["**/*.png"], fallthrough = true }
+]
