@@ -1,0 +1,92 @@
+body {
+  position: relative;
+  overflow-x: hidden;
+  display: block;
+}
+
+/*background image*/
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("./assets/pexels-kumoknits-4601228.jpg") no-repeat fixed
+    center;
+  background-size: cover;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.container {
+  text-align: center;
+  width: 100vw;
+}
+
+.form {
+  display: inline-block;
+  margin: 4rem;
+  padding: 1rem;
+  background-color: #feebda;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 13px 13px 20px #00000099;
+}
+.addInformation_form {
+  text-align: left;
+  margin-left: 20%;
+  padding-bottom: 1rem;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  height: 3rem;
+  bottom: 0px;
+  border-top: 2px solid black;
+  background-color: #feebda;
+  text-align: center;
+}
+
+input[type="number"] {
+  max-width: 14%;
+  margin-left: 10px;
+}
+
+.submitButton {
+  background-color: #ffbe86;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 40%;
+}
+
+
+.submitButton:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+
+.submitButton:active {
+  border-width: 4px 0 0;
+   background-color: #ffd7b4;
+}
