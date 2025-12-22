@@ -1,7 +1,7 @@
 
 import './App.css'
 import Price_form from './components/Price_form'
-import bg from "./assets/img/background";
+import bg from "./assets/img/background.jpg";
 
 function App() {
 
